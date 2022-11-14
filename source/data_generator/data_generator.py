@@ -10,7 +10,7 @@ data={
 
 for _ in range(n):
     """Generate random start times and end times for each videoplay events"""
-    start_date = start_date = datetime.datetime(2022, 4, 1)
+    start_date = datetime.datetime(2022, 4, 1)
     end_date = datetime.datetime(2022, 4, 30)
     start = start_date + (end_date - start_date) * random.random()
     end = start + timedelta(hours = 3)
