@@ -15,7 +15,7 @@ This project uses `venv` in other for users to easily run.
 To run locally:
 ```sh
     git clone project repository
-    create virtual environment using `virtualenv venv`
+    create virtual environment using `python3 -m venv env` for macos/unix and `py -m venv env` for windows 
     activate the virtual environment using `venv /Scripts/activate.bat`
     RUN `pip install -e .`
 ```
@@ -30,7 +30,7 @@ RUN max-video-cli
 ### Steps to run the integration test
 ```sh
 cd into root folder
-RUN pip install -r requirement_dev.txt
+RUN pip install -r requirements_dev.txt
 RUN pytest
 ```
 
