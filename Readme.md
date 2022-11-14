@@ -7,11 +7,10 @@ This assessment accepts input json data that stores videoplay events and returns
 - videos can be of unequal lengths
 - start times are used to determine the videos playing together at the same time since video lengths are assumed to be unequal.
 
-![image](https://user-images.githubusercontent.com/30020704/201565640-fc747ce4-dde7-4de8-a852-144a5ae99c11.png)
-
-
 ### Dataset
 The dataset used is generated randomly using a python code located in the data_generator folder.
+
+![image](https://user-images.githubusercontent.com/30020704/201565640-fc747ce4-dde7-4de8-a852-144a5ae99c11.png)
 
 ### How to run
 This project uses `venv` in other for users to easily run.
