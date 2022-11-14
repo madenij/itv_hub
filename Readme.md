@@ -51,4 +51,4 @@ RUN pytest
 - Language - Python
 
 Writing by:
-Mujeeb Adeniji
+- Mujeeb Adeniji
