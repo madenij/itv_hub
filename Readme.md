@@ -34,6 +34,7 @@ RUN pytest
 ```
 
 ### This project uses github action for continuous integration
+image.png
 
 ### Tools and Technologies used:
 - Language - Python
