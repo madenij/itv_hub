@@ -25,7 +25,7 @@ To run locally:
 ### Steps to run the code
 ```sh
 cd into root folder
-RUN max-video-cli
+RUN `max-video-cli`
 ```
 
 
@@ -34,16 +34,16 @@ I created an API endpoint to wrap the function.
 
 ```sh
 cd into root folder
-RUN uvicorn source.project_script.max_video_play:app
-Go to http://localhost:8000/videoplay on your browser
+RUN `uvicorn source.project_script.max_video_play:app`
+Go to `http://localhost:8000/videoplay` on your browser
 ```
 
 
 ### Steps to run the integration test
 ```sh
 cd into root folder
-RUN pip install -r requirements_dev.txt
-RUN pytest
+RUN `pip install -r requirements_dev.txt`
+RUN `pytest`
 ```
 
 ##### Expected result(maximum number of videos playing at once)
