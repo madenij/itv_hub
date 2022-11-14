@@ -30,11 +30,13 @@ RUN max-video-cli
 ### Steps to run the integration test
 ```sh
 cd into root folder
+RUN pip install -r requirement_dev.txt
 RUN pytest
 ```
 
 ### This project uses github action for continuous integration
-image.png
+![image](https://user-images.githubusercontent.com/30020704/201562005-e2a11972-41bc-4548-834a-652884519c44.png)
+
 
 ### Tools and Technologies used:
 - Language - Python
