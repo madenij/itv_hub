@@ -33,8 +33,15 @@ cd into root folder
 RUN pip install -r requirements_dev.txt
 RUN pytest
 ```
+##### Expected test output
+![image](https://user-images.githubusercontent.com/30020704/201564975-c6e7f4ff-cb9e-4c0d-b699-0ebaf0fa518f.png)
 
-### This project uses github action for continuous integration
+
+##### Expected result(maximum number of videos playing at once)
+![image](https://user-images.githubusercontent.com/30020704/201564896-7fe55d68-ad1a-4429-881d-1c5ffe6ee326.png)
+
+
+##### This project uses github action for continuous integration
 ![image](https://user-images.githubusercontent.com/30020704/201562005-e2a11972-41bc-4548-834a-652884519c44.png)
 
 
