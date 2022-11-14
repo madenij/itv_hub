@@ -18,7 +18,7 @@ To run locally:
 ```sh
     git clone project repository
     create virtual environment using `python3 -m venv env` for macos/unix and `py -m venv env` for windows 
-    activate the virtual environment using `env/Scripts/activate.bat` or `source/env/bin.activate`
+    activate the virtual environment using `env/Scripts/activate.bat` or `source/env/bin/activate`
     RUN `pip install -e .`
 ```
 
