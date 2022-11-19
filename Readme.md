@@ -18,7 +18,7 @@ To run locally:
 ```sh
     git clone project repository
     create virtual environment using `python3 -m venv env` for macos/unix and `py -m venv env` for windows 
-    activate the virtual environment using `env/Scripts/activate.bat`
+    activate the virtual environment using `env/Scripts/activate.bat` or `source/env/bin.activate`
     RUN `pip install -e .`
 ```
 
@@ -27,7 +27,17 @@ To run locally:
 cd into root folder
 RUN max-video-cli
 ```
-- Running the above will generate an output in form of 'The maximum number of videos playing at once is: `num`, and at date and time: `datetime`'
+
+
+### Alternative way to run the code
+I created an API endpoint to wrap the function.
+
+```sh
+cd into root folder
+RUN uvicorn source.project_script.max_video_play:app
+Go to http://localhost:8000/videoplay on your browser
+```
+
 
 ### Steps to run the integration test
 ```sh
@@ -35,12 +45,17 @@ cd into root folder
 RUN pip install -r requirements_dev.txt
 RUN pytest
 ```
-##### Expected test output
-![image](https://user-images.githubusercontent.com/30020704/201564975-c6e7f4ff-cb9e-4c0d-b699-0ebaf0fa518f.png)
-
 
 ##### Expected result(maximum number of videos playing at once)
-![image](https://user-images.githubusercontent.com/30020704/201564896-7fe55d68-ad1a-4429-881d-1c5ffe6ee326.png)
+![image](https://user-images.githubusercontent.com/30020704/202834089-28c9d336-e6fb-4f85-a472-5b5951fe1318.png)
+
+
+##### Expected result from the API(maximum number of videos playing at once)
+![image](https://user-images.githubusercontent.com/30020704/202834128-80af8895-173e-4210-b627-c556e0e75c77.png)
+
+
+##### Expected test output
+![image](https://user-images.githubusercontent.com/30020704/202834039-82d94cf2-89d9-42b6-ae43-11f5ee908dc9.png)
 
 
 ##### This project uses github action for continuous integration

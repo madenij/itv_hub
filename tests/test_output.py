@@ -16,6 +16,6 @@ def test_generated_input_data():
 
 def test_returned_maxmum_number_of_video_played_together():
     '''Test that the function returns a string'''
-    assert isinstance(max_num_videos_playing_together(), str)
+    assert isinstance(max_num_videos_playing_together(), dict)
     
 
